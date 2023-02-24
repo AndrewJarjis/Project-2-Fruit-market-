@@ -32,5 +32,5 @@ print(f"Sub Total: ${sub_total} ")
 tax = sub_total * 0.05
 print(f"5% tax: ${tax:0.2f}")
 total = tax + sub_total
-print(f"Total: ${total}")
+print(f"Total: ${total:0.2f}")
 
